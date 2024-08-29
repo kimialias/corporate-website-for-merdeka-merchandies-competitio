@@ -1,1 +1,3 @@
-"# corporate-website-for-merdeka-merchandies-competitio" 
+# IN DEVELOPMENT
+
+This is part of Krenovator Merdeka Competition
