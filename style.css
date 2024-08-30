@@ -66,28 +66,32 @@ div.header .btn {
 
 div.heria {
     background-color: white;
-    padding: 0px; /* Adjust padding to reduce empty space */
-    text-align: left; /* Align content to the left */
-}
-
-div.heria h2 {
-    margin-bottom: 20px; /* Adds space between the heading and the paragraph */
-    text-align: center; /* Centers the "About Us" title */
+    padding: 0px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 div.heria img {
-    width: 800px; /* Set a smaller width for the image */
+    width: 50%;
     height: auto;
-    border-radius: 50px; /* Rounded edges */
-    margin-left: 50px;
-    margin-right: 50px; /* Adds space between the image and the text */
-    float: left; /* Aligns the image to the left of the text */
+    border-radius: 50px;
+    margin-right: 50px; /* Adjust spacing between image and text */
+    float: left; /* Float the image to the left */
+}
+
+div.heria h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 div.heria p {
-    text-align: justify; /* Proper paragraph formatting */
-    overflow: hidden; /* Ensure proper text wrapping around the image */
-    margin-top: 0;
+    text-align: center;
+    padding-bottom: 8%;
+    margin-right: 50px;
+    overflow: hidden;
 }
 
 div.services{
