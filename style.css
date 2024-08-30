@@ -158,6 +158,15 @@ div.container{
     margin-bottom: 20px;
 }
 
+div.card img{
+    max-height: 300px;
+    max-width: 100%;
+    width: auto;           /* Keep the original aspect ratio by adjusting the width automatically */
+    height: auto;          /* Ensure that the image height scales proportionally */
+    display: block;      /* Necessary for margin: auto to work */
+    margin: 0 auto;   
+}
+
 p.old-price{
     text-decoration: line-through;
 }
