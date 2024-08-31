@@ -16,7 +16,7 @@ As I continue to develop my skills, I look forward to challenging myself by inte
 
 ## User Interface
 
-Here is screenshot of the UI
+Here are the UI screenshots for your review.
 
 ### Navigation Bar and About Us section
 ![Heria](UI/ui1.png)
