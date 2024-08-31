@@ -48,10 +48,6 @@ div.header .btn {
     color: black;
 }
 
-div.header .btn:hover {
-    background-color: #fdd14b;
-}
-
 /* Responsive Button Styling */
 @media (max-width: 768px) {
     div.header .btn {
@@ -70,190 +66,120 @@ div.header .btn:hover {
 }
 /* Header/Button */
 
-/* About Us */
-div.heria {
-    padding: 0px;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-div.heria img {
-    width: 50%;
-    height: auto;
-    border-radius: 50px;
-    margin-right: 50px; /* Adjust spacing between image and text */
-    float: left; /* Float the image to the left */
-}
-
-div.heria h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-div.heria p {
-    text-align: center;
-    padding-bottom: 8%;
-    margin-right: 50px;
-    overflow: hidden;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
-}
-/* About Us */
-
-/* Services */
-div.services{
-    background-image: url("img/yellow.jpg");
-    padding: 0px;
-    margin-right: 50px;
-    width: 100%;
-    height: auto;
-    padding-top: 30px;
-    margin-top: 50px;
-}
-
-div.services div{
-    display: flex; /* Make the container a flexbox */
-    justify-content: center; /* Horizontally centers items */
-}
-
-div.services p{
-    max-width: 30%; /* 20% */
-    text-align: center;
-    padding: 20px;
-}
-
-div.services img{
-    width: 100%;
-    height: auto;
-    border-radius: 50px;
-    margin-right: 50px; /* Adjust spacing between image and text */
-}
-/* Services */
-
-/* Independence */
-div.independence{
-    background-image: url("img/red.jpg");
-    color: white;
-    padding: 0px;
-    margin-right: 50px;
-    width: 100%;
-    height: auto;
-    padding-top: 30px;
-}
-
-div.independence div{
-    display: flex; /* Make the container a flexbox */
-    justify-content: center; /* Horizontally centers items */
-}
-
-div.independence p{
-    max-width: 25%;
-    text-align: center;
-    padding: 20px;
-}
-
-div.independence img{
-    max-width: 100%; /* Ensures the image does not exceed its container's width */
-    height: auto; /* Maintains the aspect ratio */
-    max-height: 300px;
-    border-radius: 50px;
-    margin-right: 50px;
-    object-fit: contain; /* Ensures the entire image is shown without being distorted */
-    display: block;
-    margin: 0 auto; 
-}
-/* Independence */
-
-div.container{
-    margin-bottom: 20px;
-}
-
-div.card img{
-    max-height: 300px;
-    max-width: 100%;
-    width: auto;           /* Keep the original aspect ratio by adjusting the width automatically */
-    height: auto;          /* Ensure that the image height scales proportionally */
-    display: block;      /* Necessary for margin: auto to work */
-    margin: 0 auto;   
-}
-
-p.old-price{
-    text-decoration: line-through;
-}
-
-span.badge{
-    color: white;
-}
-
-.testimonials {
-    background-image: url("img/yellow.jpg");
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.testimonials h2 {
-    margin-bottom: 30px;
-}
-
-.testimonial-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.testimonial {
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 800px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.testimonial img {
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
-}
-
-.testimonial-content {
-    text-align: left;
-}
-
-.testimonial-content h3 {
-    font-size: 18px;
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
     font-weight: bold;
 }
 
-.testimonial-content p {
+.cart-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-table th, .cart-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-image {
+    max-height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.coupon {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.coupon input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.coupon button {
+    padding: 5px 10px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cart-totals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.totals p {
     margin: 5px 0;
 }
 
-.testimonial-content .course {
-    color: #ffc107; 
-    font-weight: bold;
+.checkout-button {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
 }
-
-.testimonial-content .quote {
-    font-style: italic;
-}
-
 
 /* Footer */
 footer {
     background-color: #f9f9f9;
     padding: 20px 0;
     font-family: Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .footer-container {

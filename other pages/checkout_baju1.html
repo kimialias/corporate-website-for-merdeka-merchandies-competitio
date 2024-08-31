@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../img/h_logo.png" type="image/png">
+        <title>Checkout</title>
+        <link rel="stylesheet" href="style_checkout.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo" src="../img/h_logo.png" alt="Logo" width="" height="30" class="d-inline-block align-text-top">
+            </a>
+            
+            <!-- Add this button for toggling the collapsed menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                </ul>
+                <a class="btn btn-warning" href="contact_us.html" role="button">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="cart-container">
+
+        <h1 class="cart-title">CART</h1>
+
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="product">
+                        <img src="../img/baju1.png" alt="Product Image" class="product-image">
+                        67th Malaysia Independence Day Commemorative Polo Shirt
+                    </td>
+                    <td>RM 50.00</td>
+                    <td>1</td>
+                    <td>RM 50.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="coupon">
+            <input type="text" placeholder="Coupon code">
+            <button style="color: black;">Apply Coupon</button>
+        </div>
+
+        <div class="cart-totals">
+            <div class="totals">
+                <p><strong>Subtotal:</strong> RM 50.00</p>
+                <p><strong>Shipping:</strong> Flat rate: RM 5.00 <br> Shipping to Johor.</p>
+                <p><strong>Total:</strong> RM 55.00</p>
+            </div>
+            <button class="checkout-button" style="color: black;">Proceed To Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <!-- Container for the entire footer -->
+        <div class="footer-container">
+            <!-- Footer logo section -->
+            <div class="footer-logo">
+                <!-- Replace 'your-logo.png' with the path to your logo -->
+                <img src="../img/h_logo1.png" alt="Lalamove Logo">
+                <div class="footer-column">
+                    <h4>Download Our App Now</h4>
+                    <a href="https://play.google.com/store/apps/" target="_blank"><img src="../img/play_store.png" alt="Play Store"></a>
+                    <a href="https://www.apple.com/my/app-store/" target="_blank"><img src="../img/app_store.png" alt="App Store"></a>
+                </div>
+            </div>
+            <!-- Links section with four columns -->
+            <div class="footer-links">
+                <!-- First column: Delivery Service links -->
+                <div class="footer-column">
+                    <h4>Delivery Service</h4>
+                    <a href="#">Business</a>
+                    <a href="#">Personal</a>
+                    <a href="#">Driver</a>
+                    <a href="#">Rewards</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">FAQs</a>
+                </div>
+                <!-- Second column: Ride Service links -->
+                <div class="footer-column">
+                    <h4>Ride Service</h4>
+                    <a href="#">Driver</a>
+                    <a href="#">Rewards</a>
+                    <a href="#">FAQs</a>
+                </div>
+                <!-- Third column: Company links -->
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Deliver Care</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Sitemap</a>
+                </div>
+                <!-- Fourth column: Legal and social media links -->
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <div class="social-media">
+                        <h4>Follow</h4>
+                        <!-- Social media icons -->
+                        <a href="https://www.facebook.com" target="_blank">Facebook
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank">Twitter
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">Instagram
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom section of the footer -->
+        <div class="footer-bottom">
+            <!-- Copyright text -->
+            <p>© HERIA ENTERPRISE 2024. ALL RIGHTS RESERVED</p>
+            <!-- Language and location text -->
+            <p>Malaysia - English | +03-8873 0000 | heriahr@email.com</p>
+        </div>
+    </footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
