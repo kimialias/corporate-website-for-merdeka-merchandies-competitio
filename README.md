@@ -2,6 +2,8 @@
 
 Note: This project does not utilize Java; it is solely focused on demonstrating the design of a corporate website for Merdeka-themed merchandise.
 
+Click the link to view the website: https://kimialias.github.io/heria_corporate-website-for-merdeka-merchandies-competition/
+
 ## Welcome Judges
 
 Thank you for taking the time to review my project. I’m excited to showcase my work and share my journey in web development through this entry. Your feedback is invaluable to me, and I hope this project demonstrates both my current capabilities and my potential for growth in the field of web development.
