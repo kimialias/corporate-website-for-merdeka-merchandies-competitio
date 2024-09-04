@@ -1,6 +1,7 @@
 # This is part of Krenovator Merdeka Competition
 
 Note: This project does not utilize Java; it is solely focused on demonstrating the design of a corporate website for Merdeka-themed merchandise.
+
 Note: Not responsive
 
 Click the link to view the website: https://kimialias.github.io/heria_corporate-website-for-merdeka-merchandies-competition/
